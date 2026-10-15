@@ -1,0 +1,11 @@
+# Local dependencies are platform-specific and must be installed by Vercel.
+node_modules/
+
+# Generated build and Vercel files
+dist/
+.vercel/
+
+# Local configuration and logs
+.env
+.env.*
+*.log
