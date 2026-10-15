@@ -1,0 +1,6 @@
+@media (max-width: 760px) {
+  .hero { isolation: isolate; }
+  .hero-copy, .scroll-note { z-index: 2; }
+  .hero-visual { z-index: -1; pointer-events: none; }
+  .hero-grid { z-index: -2; }
+}
